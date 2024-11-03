@@ -1,8 +1,8 @@
 # Instance Description
 
-Each PNG file "district_`<span>`$a$-`<span>`$b$.png" in the folder [instances_picture](instances_picture) illustrates the placement of PVAs, where the partitioning result is obtained by our Heuristic Search algorithm, and the blue dotted line represents the induced inner cut edges.
+Each PNG file "district_`<span>`$a$-`<span>`$b$.png" in [instances_picture](instances_picture) directory illustrates the placement of PVAs, where the partitioning result is obtained by our Heuristic Search algorithm, and the blue dotted line represents the induced inner cut edges.
 
-Each TXT file "district_`<span>`$a$-`<span>`$b$.txt" in the folder [instances](instances) provides information about the location of PVAs, with each line reporting the index, x-coordinate, y-coordinate, and district to which a PVA is asssinged.
+Each TXT file "district_`<span>`$a$-`<span>`$b$.txt" in [instances](instances) directory provides information about the location of PVAs, with each line reporting the index, x-coordinate, y-coordinate, and district to which a PVA is asssinged.
 
 The length parameters are provided in meters. The distance between two PVAs is measured by the Manhattan distance (L1 norm).  The potential service ways can be built by vertically traversing the entire farm between any two consecutive PVA columns. The length of a service way is calculated as $8.500 \times max(n^{1},n^{2})$, where $n^{1}$ and $n^{2}$ are respectively the number of PVAs located along the two adjacent columns of this service way.
 

@@ -23,11 +23,11 @@ Below is the BibTex for citing this snapshot of the repository.
 @misc{Wang2024,
   author =        {Wang, Chong AND Wu, Qinghua AND Pan, Kai AND Shen, Zuo-Jun Max},
   publisher =     {INFORMS Journal on Computing},
-  title =         {{Layout Optimization for a Large-Scale Grid-Connected Solar Power Plant}},
+  title =         {Dataset for layout optimization for a large-Scale grid-Connected solar power plant},
   year =          {2024},
   doi =           {10.1287/ijoc.2023.0223.cd},
   url =           {https://github.com/INFORMSJoC/2023.0223},
-  note =          {Available for download at https://github.com/INFORMSJoC/2023.0223},
+  note =          {Available for download at \url{https://github.com/INFORMSJoC/2023.0223}},
 }
 ```
 
@@ -41,7 +41,7 @@ The instances are originally collected from the Hubei Branch of the [State Grid 
 
 Each instance (denoted by "district_`<span>`$a$-`<span>`$b$") represents a grid-connected solar power plant with a set of photovoltaic arrays (PVAs) continuously placed in a PV farm. Here, $a$ is the number of districts, and $b$ is an index representing different layout shapes. Each district in these plants has 109 slots of PVAs, one of which is removed to install an inverter.
 
-Please see [data](data) folder to view the data and detaileddescriptions.
+Please see [data](data) directory to view the data and detailed descriptions.
 
 ## Results
 

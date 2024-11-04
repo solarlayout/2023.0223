@@ -39,15 +39,15 @@ The goal of this repository is to share data and results related to the Integrat
 
 The instances are originally collected from the Hubei Branch of the [State Grid Corporation of China](http://www.sgcc.com.cn/html/sgcc_main_en/index.shtml). All sensitive or confidential information has been appropriately desensitized.
 
-Each instance (denoted by "district_`<span>`$a$-`<span>`$b$") represents a grid-connected solar power plant with a set of photovoltaic arrays (PVAs) continuously placed in a PV farm. Here, $a$ is the number of districts, and $b$ is an index representing different layout shapes. Each district in these plants has 109 slots of PVAs, one of which is removed to install an inverter.
+Each instance (denoted by "district_<span>$a$</span>-<span>$b$</span>") represents a grid-connected solar power plant with a set of photovoltaic arrays (PVAs) continuously placed in a PV farm. Here, $a$ is the number of districts, and $b$ is an index representing different layout shapes. Each district in these plants has 109 slots of PVAs, one of which is removed to install an inverter.
 
-Please see [data](data) directory to view the data and detailed descriptions.
+Please see the [data](data) directory to view the data and detailed descriptions.
 
 ## Results
 
 The results present the optimal solutions for all instances, solved using our exact solution approach. We develop exact algorithms to solve the ILR problem through a decomposition framework, which yields a variant of Benders decomposition and guarantees an optimal solution. Additionally, we implement an exact branch-and-cut scheme to solve each subproblem within the decomposition framework, integrating cutting planes and separation algorithms to enhance solution precision.
 
-Please see [results](results) directory to view the optimal solutions and detailed descriptions.
+Please see the [results](results) directory to view the optimal solutions and detailed descriptions.
 
 ## Support
 

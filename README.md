@@ -45,42 +45,10 @@ Please see [data](data) directory to view the data and detailed descriptions.
 
 ## Results
 
-The instances are originally collected from the Hubei Branch of the [State Grid Corporation of China](http://www.sgcc.com.cn/html/sgcc_main_en/index.shtml). All sensitive or confidential information has been appropriately desensitized.
+The results present the optimal solutions for all instances, solved using our exact solution approach. We develop exact algorithms to solve the ILR problem through a decomposition framework, which yields a variant of Benders decomposition and guarantees an optimal solution. Additionally, we implement an exact branch-and-cut scheme to solve each subproblem within the decomposition framework, integrating cutting planes and separation algorithms to enhance solution precision.
 
 Please see [results](results) directory to view the optimal solutions and detailed descriptions.
 
-## Replicating
-
-To replicate the results in [Figure 1](results/mult-test), do either
-
-```
-make mult-test
-```
-
-or
-
-```
-python test.py mult
-```
-
-To replicate the results in [Figure 2](results/sum-test), do either
-
-```
-make sum-test
-```
-
-or
-
-```
-python test.py sum
-```
-
-## Ongoing Development
-
-This code is being developed on an on-going basis at the author's
-[Github site](https://github.com/tkralphs/JoCTemplate).
-
 ## Support
 
-For support in using this software, submit an
-[issue](https://github.com/tkralphs/JoCTemplate/issues/new).
+For support in using this data, submit an [issue](https://github.com/tkralphs/JoCTemplate/issues/new).

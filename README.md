@@ -23,7 +23,7 @@ Below is the BibTex for citing this snapshot of the repository.
 @misc{Wang2024,
   author =        {Wang, Chong AND Wu, Qinghua AND Pan, Kai AND Shen, Zuo-Jun Max},
   publisher =     {INFORMS Journal on Computing},
-  title =         {Dataset for layout optimization for a large-Scale grid-Connected solar power plant},
+  title =         {Layout optimization for a large-Scale grid-Connected solar power plant},
   year =          {2024},
   doi =           {10.1287/ijoc.2023.0223.cd},
   url =           {https://github.com/INFORMSJoC/2023.0223},
